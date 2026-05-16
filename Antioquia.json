@@ -1,0 +1,2259 @@
+{
+  "DEPARTAMENTAL": [
+    {
+      "comision": "ANTIOQUIA",
+      "codigo": "UT1000",
+      "clave": "503090"
+    }
+  ],
+  "MEDELLIN": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2000",
+      "clave": "836069"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5001",
+      "clave": "801801"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5002",
+      "clave": "952270"
+    },
+    {
+      "comision": "AUXILIAR 3",
+      "codigo": "UT5003",
+      "clave": "191283"
+    },
+    {
+      "comision": "AUXILIAR 4",
+      "codigo": "UT5004",
+      "clave": "828392"
+    },
+    {
+      "comision": "AUXILIAR 5",
+      "codigo": "UT5005",
+      "clave": "233736"
+    },
+    {
+      "comision": "AUXILIAR 6",
+      "codigo": "UT5006",
+      "clave": "503452"
+    },
+    {
+      "comision": "AUXILIAR 7",
+      "codigo": "UT5007",
+      "clave": "986224"
+    },
+    {
+      "comision": "AUXILIAR 8",
+      "codigo": "UT5008",
+      "clave": "157810"
+    },
+    {
+      "comision": "AUXILIAR 9",
+      "codigo": "UT5009",
+      "clave": "936302"
+    },
+    {
+      "comision": "AUXILIAR 10",
+      "codigo": "UT5010",
+      "clave": "271747"
+    },
+    {
+      "comision": "AUXILIAR 11",
+      "codigo": "UT5011",
+      "clave": "506146"
+    },
+    {
+      "comision": "AUXILIAR 12",
+      "codigo": "UT5012",
+      "clave": "599913"
+    },
+    {
+      "comision": "AUXILIAR 13",
+      "codigo": "UT5013",
+      "clave": "387434"
+    },
+    {
+      "comision": "AUXILIAR 14",
+      "codigo": "UT5014",
+      "clave": "430346"
+    },
+    {
+      "comision": "AUXILIAR 15",
+      "codigo": "UT5015",
+      "clave": "036323"
+    },
+    {
+      "comision": "AUXILIAR 16",
+      "codigo": "UT5016",
+      "clave": "482794"
+    },
+    {
+      "comision": "AUXILIAR 17",
+      "codigo": "UT5017",
+      "clave": "663495"
+    },
+    {
+      "comision": "AUXILIAR 18",
+      "codigo": "UT5018",
+      "clave": "767414"
+    },
+    {
+      "comision": "AUXILIAR 19",
+      "codigo": "UT5019",
+      "clave": "712289"
+    },
+    {
+      "comision": "AUXILIAR 20",
+      "codigo": "UT5020",
+      "clave": "010979"
+    },
+    {
+      "comision": "AUXILIAR 21",
+      "codigo": "UT5021",
+      "clave": "787149"
+    },
+    {
+      "comision": "AUXILIAR 22",
+      "codigo": "UT5022",
+      "clave": "279339"
+    },
+    {
+      "comision": "AUXILIAR 23",
+      "codigo": "UT5023",
+      "clave": "394659"
+    },
+    {
+      "comision": "AUXILIAR 24",
+      "codigo": "UT5024",
+      "clave": "211810"
+    },
+    {
+      "comision": "AUXILIAR 25",
+      "codigo": "UT5025",
+      "clave": "081952"
+    },
+    {
+      "comision": "AUXILIAR 26",
+      "codigo": "UT5026",
+      "clave": "516689"
+    },
+    {
+      "comision": "AUXILIAR 27",
+      "codigo": "UT5027",
+      "clave": "684268"
+    },
+    {
+      "comision": "AUXILIAR 28",
+      "codigo": "UT5028",
+      "clave": "904421"
+    },
+    {
+      "comision": "AUXILIAR 29",
+      "codigo": "UT5029",
+      "clave": "440530"
+    },
+    {
+      "comision": "AUXILIAR 30",
+      "codigo": "UT5030",
+      "clave": "675788"
+    },
+    {
+      "comision": "AUXILIAR 31",
+      "codigo": "UT5031",
+      "clave": "998049"
+    },
+    {
+      "comision": "AUXILIAR 32",
+      "codigo": "UT5032",
+      "clave": "092088"
+    },
+    {
+      "comision": "AUXILIAR 33",
+      "codigo": "UT5033",
+      "clave": "455767"
+    },
+    {
+      "comision": "AUXILIAR 34",
+      "codigo": "UT5034",
+      "clave": "786821"
+    },
+    {
+      "comision": "AUXILIAR 35",
+      "codigo": "UT5035",
+      "clave": "744154"
+    },
+    {
+      "comision": "AUXILIAR 36",
+      "codigo": "UT5036",
+      "clave": "811190"
+    },
+    {
+      "comision": "AUXILIAR 37",
+      "codigo": "UT5037",
+      "clave": "597305"
+    },
+    {
+      "comision": "AUXILIAR 38",
+      "codigo": "UT5038",
+      "clave": "126272"
+    },
+    {
+      "comision": "AUXILIAR 39",
+      "codigo": "UT5039",
+      "clave": "402919"
+    },
+    {
+      "comision": "AUXILIAR 40",
+      "codigo": "UT5040",
+      "clave": "503580"
+    },
+    {
+      "comision": "AUXILIAR 41",
+      "codigo": "UT5041",
+      "clave": "457188"
+    },
+    {
+      "comision": "AUXILIAR 42",
+      "codigo": "UT5042",
+      "clave": "331125"
+    },
+    {
+      "comision": "AUXILIAR 43",
+      "codigo": "UT5043",
+      "clave": "691802"
+    },
+    {
+      "comision": "AUXILIAR 44",
+      "codigo": "UT5044",
+      "clave": "700019"
+    },
+    {
+      "comision": "AUXILIAR 45",
+      "codigo": "UT5045",
+      "clave": "294535"
+    },
+    {
+      "comision": "AUXILIAR 46",
+      "codigo": "UT5046",
+      "clave": "255577"
+    },
+    {
+      "comision": "AUXILIAR 47",
+      "codigo": "UT5047",
+      "clave": "987585"
+    },
+    {
+      "comision": "AUXILIAR 48",
+      "codigo": "UT5048",
+      "clave": "151085"
+    },
+    {
+      "comision": "AUXILIAR 49",
+      "codigo": "UT5049",
+      "clave": "910893"
+    },
+    {
+      "comision": "AUXILIAR 50",
+      "codigo": "UT5050",
+      "clave": "313874"
+    },
+    {
+      "comision": "AUXILIAR 51",
+      "codigo": "UT5051",
+      "clave": "426719"
+    },
+    {
+      "comision": "AUXILIAR 52",
+      "codigo": "UT5052",
+      "clave": "920579"
+    },
+    {
+      "comision": "AUXILIAR 53",
+      "codigo": "UT5053",
+      "clave": "076723"
+    },
+    {
+      "comision": "AUXILIAR 54",
+      "codigo": "UT5054",
+      "clave": "764095"
+    },
+    {
+      "comision": "AUXILIAR 55",
+      "codigo": "UT5055",
+      "clave": "969055"
+    },
+    {
+      "comision": "AUXILIAR 56",
+      "codigo": "UT5056",
+      "clave": "889115"
+    },
+    {
+      "comision": "AUXILIAR 57",
+      "codigo": "UT5057",
+      "clave": "173944"
+    },
+    {
+      "comision": "AUXILIAR 58",
+      "codigo": "UT5058",
+      "clave": "566508"
+    },
+    {
+      "comision": "AUXILIAR 59",
+      "codigo": "UT5059",
+      "clave": "462432"
+    },
+    {
+      "comision": "AUXILIAR 60",
+      "codigo": "UT5060",
+      "clave": "944398"
+    },
+    {
+      "comision": "AUXILIAR 61",
+      "codigo": "UT5061",
+      "clave": "609737"
+    },
+    {
+      "comision": "AUXILIAR 62",
+      "codigo": "UT5062",
+      "clave": "307130"
+    },
+    {
+      "comision": "AUXILIAR 63",
+      "codigo": "UT5063",
+      "clave": "081336"
+    },
+    {
+      "comision": "AUXILIAR 64",
+      "codigo": "UT5064",
+      "clave": "318603"
+    },
+    {
+      "comision": "AUXILIAR 65",
+      "codigo": "UT5065",
+      "clave": "063904"
+    },
+    {
+      "comision": "AUXILIAR 66",
+      "codigo": "UT5066",
+      "clave": "946966"
+    },
+    {
+      "comision": "AUXILIAR 67",
+      "codigo": "UT5067",
+      "clave": "191041"
+    },
+    {
+      "comision": "AUXILIAR 68",
+      "codigo": "UT5068",
+      "clave": "268343"
+    },
+    {
+      "comision": "AUXILIAR 69",
+      "codigo": "UT5069",
+      "clave": "878116"
+    },
+    {
+      "comision": "AUXILIAR 70",
+      "codigo": "UT5070",
+      "clave": "681951"
+    },
+    {
+      "comision": "AUXILIAR 71",
+      "codigo": "UT5071",
+      "clave": "875173"
+    },
+    {
+      "comision": "AUXILIAR 72",
+      "codigo": "UT5072",
+      "clave": "488262"
+    },
+    {
+      "comision": "AUXILIAR 73",
+      "codigo": "UT5073",
+      "clave": "149191"
+    },
+    {
+      "comision": "AUXILIAR 74",
+      "codigo": "UT5074",
+      "clave": "242859"
+    },
+    {
+      "comision": "AUXILIAR 75",
+      "codigo": "UT5075",
+      "clave": "727336"
+    },
+    {
+      "comision": "AUXILIAR 76",
+      "codigo": "UT5076",
+      "clave": "023411"
+    },
+    {
+      "comision": "AUXILIAR 77",
+      "codigo": "UT5077",
+      "clave": "413379"
+    },
+    {
+      "comision": "AUXILIAR 78",
+      "codigo": "UT5078",
+      "clave": "550548"
+    },
+    {
+      "comision": "AUXILIAR 79",
+      "codigo": "UT5079",
+      "clave": "574172"
+    },
+    {
+      "comision": "AUXILIAR 80",
+      "codigo": "UT5080",
+      "clave": "394591"
+    },
+    {
+      "comision": "AUXILIAR 81",
+      "codigo": "UT5081",
+      "clave": "747721"
+    },
+    {
+      "comision": "AUXILIAR 82",
+      "codigo": "UT5082",
+      "clave": "387619"
+    },
+    {
+      "comision": "AUXILIAR 83",
+      "codigo": "UT5083",
+      "clave": "499977"
+    },
+    {
+      "comision": "AUXILIAR 84",
+      "codigo": "UT5084",
+      "clave": "810314"
+    },
+    {
+      "comision": "AUXILIAR 85",
+      "codigo": "UT5085",
+      "clave": "173498"
+    },
+    {
+      "comision": "AUXILIAR 86",
+      "codigo": "UT5086",
+      "clave": "068442"
+    },
+    {
+      "comision": "AUXILIAR 87",
+      "codigo": "UT5087",
+      "clave": "099619"
+    },
+    {
+      "comision": "AUXILIAR 88",
+      "codigo": "UT5088",
+      "clave": "139066"
+    },
+    {
+      "comision": "AUXILIAR 89",
+      "codigo": "UT5089",
+      "clave": "210512"
+    },
+    {
+      "comision": "AUXILIAR 90",
+      "codigo": "UT5090",
+      "clave": "404905"
+    },
+    {
+      "comision": "AUXILIAR 91",
+      "codigo": "UT5091",
+      "clave": "648286"
+    },
+    {
+      "comision": "AUXILIAR 92",
+      "codigo": "UT5092",
+      "clave": "754833"
+    },
+    {
+      "comision": "AUXILIAR 93",
+      "codigo": "UT5093",
+      "clave": "761921"
+    },
+    {
+      "comision": "AUXILIAR 94",
+      "codigo": "UT5094",
+      "clave": "861945"
+    },
+    {
+      "comision": "AUXILIAR 95",
+      "codigo": "UT5095",
+      "clave": "670195"
+    },
+    {
+      "comision": "AUXILIAR 96",
+      "codigo": "UT5096",
+      "clave": "178070"
+    },
+    {
+      "comision": "AUXILIAR 97",
+      "codigo": "UT5097",
+      "clave": "954327"
+    },
+    {
+      "comision": "AUXILIAR 98",
+      "codigo": "UT5098",
+      "clave": "418422"
+    },
+    {
+      "comision": "AUXILIAR 99",
+      "codigo": "UT5099",
+      "clave": "594758"
+    },
+    {
+      "comision": "AUXILIAR 100",
+      "codigo": "UT5100",
+      "clave": "513089"
+    }
+  ],
+  "ABEJORRAL": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2001",
+      "clave": "184295"
+    }
+  ],
+  "ABRIAQUI": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2002",
+      "clave": "556754"
+    }
+  ],
+  "ALEJANDRIA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2003",
+      "clave": "634774"
+    }
+  ],
+  "AMAGA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2004",
+      "clave": "848559"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5101",
+      "clave": "798942"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5102",
+      "clave": "420337"
+    }
+  ],
+  "AMALFI": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2005",
+      "clave": "198120"
+    }
+  ],
+  "ANDES": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2006",
+      "clave": "683945"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5103",
+      "clave": "127770"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5104",
+      "clave": "017123"
+    },
+    {
+      "comision": "AUXILIAR 3",
+      "codigo": "UT5105",
+      "clave": "120650"
+    }
+  ],
+  "ANGELOPOLIS": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2007",
+      "clave": "289528"
+    }
+  ],
+  "ANGOSTURA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2008",
+      "clave": "777466"
+    }
+  ],
+  "ANORI": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2009",
+      "clave": "896250"
+    }
+  ],
+  "ANTIOQUIA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2010",
+      "clave": "901321"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5106",
+      "clave": "747948"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5107",
+      "clave": "293220"
+    }
+  ],
+  "ANZA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2011",
+      "clave": "447682"
+    }
+  ],
+  "APARTADO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2012",
+      "clave": "132161"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5108",
+      "clave": "069955"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5109",
+      "clave": "472821"
+    },
+    {
+      "comision": "AUXILIAR 3",
+      "codigo": "UT5110",
+      "clave": "849996"
+    },
+    {
+      "comision": "AUXILIAR 4",
+      "codigo": "UT5111",
+      "clave": "704112"
+    },
+    {
+      "comision": "AUXILIAR 5",
+      "codigo": "UT5112",
+      "clave": "874342"
+    },
+    {
+      "comision": "AUXILIAR 6",
+      "codigo": "UT5113",
+      "clave": "328009"
+    },
+    {
+      "comision": "AUXILIAR 7",
+      "codigo": "UT5114",
+      "clave": "005294"
+    }
+  ],
+  "ARBOLETES": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2013",
+      "clave": "177369"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5115",
+      "clave": "092502"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5116",
+      "clave": "248421"
+    }
+  ],
+  "ARGELIA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2015",
+      "clave": "415760"
+    }
+  ],
+  "ARMENIA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2016",
+      "clave": "463118"
+    }
+  ],
+  "BARBOSA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2017",
+      "clave": "860230"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5117",
+      "clave": "479907"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5118",
+      "clave": "659265"
+    },
+    {
+      "comision": "AUXILIAR 3",
+      "codigo": "UT5119",
+      "clave": "312844"
+    }
+  ],
+  "BELMIRA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2018",
+      "clave": "088787"
+    }
+  ],
+  "BELLO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2019",
+      "clave": "173212"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5120",
+      "clave": "030439"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5121",
+      "clave": "295235"
+    },
+    {
+      "comision": "AUXILIAR 3",
+      "codigo": "UT5122",
+      "clave": "106306"
+    },
+    {
+      "comision": "AUXILIAR 4",
+      "codigo": "UT5123",
+      "clave": "919150"
+    },
+    {
+      "comision": "AUXILIAR 5",
+      "codigo": "UT5124",
+      "clave": "278091"
+    },
+    {
+      "comision": "AUXILIAR 6",
+      "codigo": "UT5125",
+      "clave": "045344"
+    },
+    {
+      "comision": "AUXILIAR 7",
+      "codigo": "UT5126",
+      "clave": "636621"
+    },
+    {
+      "comision": "AUXILIAR 8",
+      "codigo": "UT5127",
+      "clave": "504665"
+    },
+    {
+      "comision": "AUXILIAR 9",
+      "codigo": "UT5128",
+      "clave": "073712"
+    },
+    {
+      "comision": "AUXILIAR 10",
+      "codigo": "UT5129",
+      "clave": "598518"
+    },
+    {
+      "comision": "AUXILIAR 11",
+      "codigo": "UT5130",
+      "clave": "001105"
+    },
+    {
+      "comision": "AUXILIAR 12",
+      "codigo": "UT5131",
+      "clave": "443942"
+    },
+    {
+      "comision": "AUXILIAR 13",
+      "codigo": "UT5132",
+      "clave": "674432"
+    },
+    {
+      "comision": "AUXILIAR 14",
+      "codigo": "UT5133",
+      "clave": "023174"
+    },
+    {
+      "comision": "AUXILIAR 15",
+      "codigo": "UT5134",
+      "clave": "460386"
+    },
+    {
+      "comision": "AUXILIAR 16",
+      "codigo": "UT5135",
+      "clave": "783008"
+    },
+    {
+      "comision": "AUXILIAR 17",
+      "codigo": "UT5136",
+      "clave": "782734"
+    },
+    {
+      "comision": "AUXILIAR 18",
+      "codigo": "UT5137",
+      "clave": "670217"
+    },
+    {
+      "comision": "AUXILIAR 19",
+      "codigo": "UT5138",
+      "clave": "473124"
+    }
+  ],
+  "BETANIA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2020",
+      "clave": "646220"
+    }
+  ],
+  "BETULIA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2021",
+      "clave": "177760"
+    }
+  ],
+  "BOLIVAR": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2022",
+      "clave": "076297"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5139",
+      "clave": "625549"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5140",
+      "clave": "333145"
+    }
+  ],
+  "BURITICA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2023",
+      "clave": "684702"
+    }
+  ],
+  "BRICEÑO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2024",
+      "clave": "416266"
+    }
+  ],
+  "CACERES": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2025",
+      "clave": "284649"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5141",
+      "clave": "163439"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5142",
+      "clave": "980614"
+    }
+  ],
+  "CAICEDO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2026",
+      "clave": "925417"
+    }
+  ],
+  "CALDAS": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2027",
+      "clave": "361959"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5143",
+      "clave": "517135"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5144",
+      "clave": "317538"
+    },
+    {
+      "comision": "AUXILIAR 3",
+      "codigo": "UT5145",
+      "clave": "577080"
+    },
+    {
+      "comision": "AUXILIAR 4",
+      "codigo": "UT5146",
+      "clave": "205097"
+    }
+  ],
+  "CAMPAMENTO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2028",
+      "clave": "925638"
+    }
+  ],
+  "CAÑASGORDAS": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2029",
+      "clave": "058185"
+    }
+  ],
+  "CARACOLI": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2030",
+      "clave": "264910"
+    }
+  ],
+  "CARAMANTA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2031",
+      "clave": "505435"
+    }
+  ],
+  "CAREPA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2032",
+      "clave": "386527"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5147",
+      "clave": "005159"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5148",
+      "clave": "355516"
+    },
+    {
+      "comision": "AUXILIAR 3",
+      "codigo": "UT5149",
+      "clave": "424987"
+    }
+  ],
+  "CARMEN DE VIBORAL": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2033",
+      "clave": "597455"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5150",
+      "clave": "027895"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5151",
+      "clave": "563350"
+    },
+    {
+      "comision": "AUXILIAR 3",
+      "codigo": "UT5152",
+      "clave": "219867"
+    }
+  ],
+  "CAROLINA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2034",
+      "clave": "749928"
+    }
+  ],
+  "CAUCASIA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2035",
+      "clave": "772752"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5153",
+      "clave": "280242"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5154",
+      "clave": "418760"
+    },
+    {
+      "comision": "AUXILIAR 3",
+      "codigo": "UT5155",
+      "clave": "399895"
+    },
+    {
+      "comision": "AUXILIAR 4",
+      "codigo": "UT5156",
+      "clave": "916381"
+    },
+    {
+      "comision": "AUXILIAR 5",
+      "codigo": "UT5157",
+      "clave": "612731"
+    }
+  ],
+  "CISNEROS": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2036",
+      "clave": "480584"
+    }
+  ],
+  "COCORNA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2037",
+      "clave": "665902"
+    }
+  ],
+  "CONCEPCION": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2038",
+      "clave": "180043"
+    }
+  ],
+  "CONCORDIA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2039",
+      "clave": "162967"
+    }
+  ],
+  "COPACABANA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2040",
+      "clave": "532236"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5158",
+      "clave": "158836"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5159",
+      "clave": "387690"
+    },
+    {
+      "comision": "AUXILIAR 3",
+      "codigo": "UT5160",
+      "clave": "578368"
+    },
+    {
+      "comision": "AUXILIAR 4",
+      "codigo": "UT5161",
+      "clave": "974020"
+    },
+    {
+      "comision": "AUXILIAR 5",
+      "codigo": "UT5162",
+      "clave": "077085"
+    }
+  ],
+  "CHIGORODO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2041",
+      "clave": "317361"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5163",
+      "clave": "516556"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5164",
+      "clave": "605296"
+    },
+    {
+      "comision": "AUXILIAR 3",
+      "codigo": "UT5165",
+      "clave": "453302"
+    }
+  ],
+  "DABEIBA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2042",
+      "clave": "928681"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5166",
+      "clave": "165914"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5167",
+      "clave": "756774"
+    }
+  ],
+  "DON MATIAS": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2043",
+      "clave": "105408"
+    }
+  ],
+  "EBEJICO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2044",
+      "clave": "171117"
+    }
+  ],
+  "EL BAGRE": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2045",
+      "clave": "805309"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5168",
+      "clave": "064075"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5169",
+      "clave": "961405"
+    },
+    {
+      "comision": "AUXILIAR 3",
+      "codigo": "UT5170",
+      "clave": "229244"
+    }
+  ],
+  "ENTRERRIOS": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2046",
+      "clave": "791336"
+    }
+  ],
+  "ENVIGADO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2047",
+      "clave": "045330"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5171",
+      "clave": "380710"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5172",
+      "clave": "082439"
+    },
+    {
+      "comision": "AUXILIAR 3",
+      "codigo": "UT5173",
+      "clave": "014834"
+    },
+    {
+      "comision": "AUXILIAR 4",
+      "codigo": "UT5174",
+      "clave": "538618"
+    },
+    {
+      "comision": "AUXILIAR 5",
+      "codigo": "UT5175",
+      "clave": "562004"
+    },
+    {
+      "comision": "AUXILIAR 6",
+      "codigo": "UT5176",
+      "clave": "581487"
+    },
+    {
+      "comision": "AUXILIAR 7",
+      "codigo": "UT5177",
+      "clave": "283521"
+    },
+    {
+      "comision": "AUXILIAR 8",
+      "codigo": "UT5178",
+      "clave": "226935"
+    },
+    {
+      "comision": "AUXILIAR 9",
+      "codigo": "UT5179",
+      "clave": "978423"
+    },
+    {
+      "comision": "AUXILIAR 10",
+      "codigo": "UT5180",
+      "clave": "786832"
+    },
+    {
+      "comision": "AUXILIAR 11",
+      "codigo": "UT5181",
+      "clave": "898563"
+    },
+    {
+      "comision": "AUXILIAR 12",
+      "codigo": "UT5182",
+      "clave": "228569"
+    },
+    {
+      "comision": "AUXILIAR 13",
+      "codigo": "UT5183",
+      "clave": "195991"
+    },
+    {
+      "comision": "AUXILIAR 14",
+      "codigo": "UT5184",
+      "clave": "628815"
+    }
+  ],
+  "FREDONIA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2048",
+      "clave": "399664"
+    }
+  ],
+  "FRONTINO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2049",
+      "clave": "986566"
+    }
+  ],
+  "GIRALDO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2050",
+      "clave": "528843"
+    }
+  ],
+  "GIRARDOTA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2051",
+      "clave": "571414"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5185",
+      "clave": "961299"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5186",
+      "clave": "597007"
+    },
+    {
+      "comision": "AUXILIAR 3",
+      "codigo": "UT5187",
+      "clave": "443728"
+    },
+    {
+      "comision": "AUXILIAR 4",
+      "codigo": "UT5188",
+      "clave": "599777"
+    }
+  ],
+  "GOMEZ PLATA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2052",
+      "clave": "156599"
+    }
+  ],
+  "GRANADA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2053",
+      "clave": "041324"
+    }
+  ],
+  "GUADALUPE": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2054",
+      "clave": "360683"
+    }
+  ],
+  "GUARNE": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2055",
+      "clave": "621396"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5189",
+      "clave": "487544"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5190",
+      "clave": "052328"
+    },
+    {
+      "comision": "AUXILIAR 3",
+      "codigo": "UT5191",
+      "clave": "829608"
+    }
+  ],
+  "GUATAPE": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2056",
+      "clave": "327232"
+    }
+  ],
+  "HELICONIA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2057",
+      "clave": "259277"
+    }
+  ],
+  "HISPANIA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2058",
+      "clave": "588808"
+    }
+  ],
+  "ITAGUI": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2059",
+      "clave": "742519"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5192",
+      "clave": "472981"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5193",
+      "clave": "275326"
+    },
+    {
+      "comision": "AUXILIAR 3",
+      "codigo": "UT5194",
+      "clave": "029851"
+    },
+    {
+      "comision": "AUXILIAR 4",
+      "codigo": "UT5195",
+      "clave": "095483"
+    },
+    {
+      "comision": "AUXILIAR 5",
+      "codigo": "UT5196",
+      "clave": "289837"
+    },
+    {
+      "comision": "AUXILIAR 6",
+      "codigo": "UT5197",
+      "clave": "657851"
+    },
+    {
+      "comision": "AUXILIAR 7",
+      "codigo": "UT5198",
+      "clave": "292131"
+    },
+    {
+      "comision": "AUXILIAR 8",
+      "codigo": "UT5199",
+      "clave": "955687"
+    },
+    {
+      "comision": "AUXILIAR 9",
+      "codigo": "UT5200",
+      "clave": "932196"
+    },
+    {
+      "comision": "AUXILIAR 10",
+      "codigo": "UT5201",
+      "clave": "312194"
+    },
+    {
+      "comision": "AUXILIAR 11",
+      "codigo": "UT5202",
+      "clave": "758058"
+    },
+    {
+      "comision": "AUXILIAR 12",
+      "codigo": "UT5203",
+      "clave": "899865"
+    },
+    {
+      "comision": "AUXILIAR 13",
+      "codigo": "UT5204",
+      "clave": "900416"
+    },
+    {
+      "comision": "AUXILIAR 14",
+      "codigo": "UT5205",
+      "clave": "256953"
+    }
+  ],
+  "ITUANGO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2060",
+      "clave": "044434"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5206",
+      "clave": "218015"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5207",
+      "clave": "296404"
+    }
+  ],
+  "JARDIN": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2061",
+      "clave": "829878"
+    }
+  ],
+  "JERICO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2062",
+      "clave": "657661"
+    }
+  ],
+  "LA CEJA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2063",
+      "clave": "972684"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5208",
+      "clave": "796760"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5209",
+      "clave": "358674"
+    },
+    {
+      "comision": "AUXILIAR 3",
+      "codigo": "UT5210",
+      "clave": "390007"
+    },
+    {
+      "comision": "AUXILIAR 4",
+      "codigo": "UT5211",
+      "clave": "037074"
+    }
+  ],
+  "LA ESTRELLA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2064",
+      "clave": "778751"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5212",
+      "clave": "542174"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5213",
+      "clave": "194609"
+    },
+    {
+      "comision": "AUXILIAR 3",
+      "codigo": "UT5214",
+      "clave": "436174"
+    },
+    {
+      "comision": "AUXILIAR 4",
+      "codigo": "UT5215",
+      "clave": "166515"
+    }
+  ],
+  "PUERTO NARE-LA MAGDALENA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2065",
+      "clave": "401435"
+    }
+  ],
+  "LA UNION": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2066",
+      "clave": "962595"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5216",
+      "clave": "420781"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5217",
+      "clave": "717199"
+    }
+  ],
+  "LA PINTADA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2067",
+      "clave": "756881"
+    }
+  ],
+  "LIBORINA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2068",
+      "clave": "870668"
+    }
+  ],
+  "MACEO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2069",
+      "clave": "476054"
+    }
+  ],
+  "MARINILLA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2070",
+      "clave": "424488"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5218",
+      "clave": "935699"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5219",
+      "clave": "515407"
+    },
+    {
+      "comision": "AUXILIAR 3",
+      "codigo": "UT5220",
+      "clave": "637044"
+    }
+  ],
+  "MONTEBELLO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2071",
+      "clave": "834342"
+    }
+  ],
+  "MURINDO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2072",
+      "clave": "278636"
+    }
+  ],
+  "MUTATA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2073",
+      "clave": "214292"
+    }
+  ],
+  "NARIÑO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2074",
+      "clave": "607997"
+    }
+  ],
+  "NECHI": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2075",
+      "clave": "628504"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5221",
+      "clave": "530328"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5222",
+      "clave": "481668"
+    }
+  ],
+  "NECOCLI": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2076",
+      "clave": "549295"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5223",
+      "clave": "399449"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5224",
+      "clave": "903158"
+    },
+    {
+      "comision": "AUXILIAR 3",
+      "codigo": "UT5225",
+      "clave": "242837"
+    }
+  ],
+  "OLAYA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2077",
+      "clave": "733018"
+    }
+  ],
+  "PEÑOL": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2078",
+      "clave": "050643"
+    }
+  ],
+  "PEQUE": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2079",
+      "clave": "713238"
+    }
+  ],
+  "PUEBLORRICO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2080",
+      "clave": "838322"
+    }
+  ],
+  "PUERTO BERRIO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2081",
+      "clave": "043666"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5226",
+      "clave": "514423"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5227",
+      "clave": "141971"
+    }
+  ],
+  "PUERTO TRIUNFO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2082",
+      "clave": "061006"
+    }
+  ],
+  "REMEDIOS": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2083",
+      "clave": "669304"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5228",
+      "clave": "472150"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5229",
+      "clave": "089664"
+    }
+  ],
+  "RETIRO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2084",
+      "clave": "222618"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5230",
+      "clave": "731177"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5231",
+      "clave": "685207"
+    }
+  ],
+  "RIONEGRO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2085",
+      "clave": "200644"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5232",
+      "clave": "604348"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5233",
+      "clave": "150005"
+    },
+    {
+      "comision": "AUXILIAR 3",
+      "codigo": "UT5234",
+      "clave": "979194"
+    },
+    {
+      "comision": "AUXILIAR 4",
+      "codigo": "UT5235",
+      "clave": "604321"
+    },
+    {
+      "comision": "AUXILIAR 5",
+      "codigo": "UT5236",
+      "clave": "369597"
+    },
+    {
+      "comision": "AUXILIAR 6",
+      "codigo": "UT5237",
+      "clave": "715716"
+    },
+    {
+      "comision": "AUXILIAR 7",
+      "codigo": "UT5238",
+      "clave": "199461"
+    }
+  ],
+  "SABANALARGA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2086",
+      "clave": "019600"
+    }
+  ],
+  "SABANETA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2087",
+      "clave": "291091"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5239",
+      "clave": "856252"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5240",
+      "clave": "814366"
+    },
+    {
+      "comision": "AUXILIAR 3",
+      "codigo": "UT5241",
+      "clave": "641352"
+    },
+    {
+      "comision": "AUXILIAR 4",
+      "codigo": "UT5242",
+      "clave": "254005"
+    },
+    {
+      "comision": "AUXILIAR 5",
+      "codigo": "UT5243",
+      "clave": "026941"
+    },
+    {
+      "comision": "AUXILIAR 6",
+      "codigo": "UT5244",
+      "clave": "553617"
+    }
+  ],
+  "SALGAR": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2088",
+      "clave": "248986"
+    }
+  ],
+  "SAN ANDRES": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2089",
+      "clave": "446228"
+    }
+  ],
+  "SAN CARLOS": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2090",
+      "clave": "515812"
+    }
+  ],
+  "SAN FRANCISCO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2091",
+      "clave": "890585"
+    }
+  ],
+  "SAN JERONIMO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2092",
+      "clave": "479207"
+    }
+  ],
+  "SAN JOSE DE LA MONTAÑA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2093",
+      "clave": "649287"
+    }
+  ],
+  "SAN JUAN DE URABA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2094",
+      "clave": "801954"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5245",
+      "clave": "238756"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5246",
+      "clave": "393650"
+    }
+  ],
+  "SAN LUIS": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2095",
+      "clave": "927870"
+    }
+  ],
+  "SAN PEDRO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2096",
+      "clave": "662973"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5247",
+      "clave": "102240"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5248",
+      "clave": "697813"
+    }
+  ],
+  "SAN PEDRO DE URABA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2097",
+      "clave": "207601"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5249",
+      "clave": "087820"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5250",
+      "clave": "854180"
+    }
+  ],
+  "SAN RAFAEL": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2098",
+      "clave": "784922"
+    }
+  ],
+  "SAN ROQUE": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2099",
+      "clave": "655439"
+    }
+  ],
+  "SAN VICENTE": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2100",
+      "clave": "352347"
+    }
+  ],
+  "SANTA BARBARA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2101",
+      "clave": "166948"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5251",
+      "clave": "703717"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5252",
+      "clave": "522660"
+    }
+  ],
+  "SANTA ROSA DE OSOS": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2102",
+      "clave": "206288"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5253",
+      "clave": "595851"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5254",
+      "clave": "192864"
+    }
+  ],
+  "SANTO DOMINGO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2103",
+      "clave": "819569"
+    }
+  ],
+  "SANTUARIO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2104",
+      "clave": "377411"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5255",
+      "clave": "747747"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5256",
+      "clave": "717218"
+    }
+  ],
+  "SEGOVIA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2105",
+      "clave": "556354"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5257",
+      "clave": "729687"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5258",
+      "clave": "154300"
+    }
+  ],
+  "SONSON": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2106",
+      "clave": "774262"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5259",
+      "clave": "374264"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5260",
+      "clave": "993919"
+    }
+  ],
+  "SOPETRAN": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2107",
+      "clave": "222387"
+    }
+  ],
+  "TAMESIS": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2108",
+      "clave": "135119"
+    }
+  ],
+  "TARAZA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2109",
+      "clave": "488309"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5261",
+      "clave": "479219"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5262",
+      "clave": "935110"
+    }
+  ],
+  "TARSO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2110",
+      "clave": "746793"
+    }
+  ],
+  "TITIRIBI": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2111",
+      "clave": "894220"
+    }
+  ],
+  "TOLEDO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2112",
+      "clave": "767592"
+    }
+  ],
+  "TURBO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2113",
+      "clave": "619631"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5263",
+      "clave": "236537"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5264",
+      "clave": "013932"
+    },
+    {
+      "comision": "AUXILIAR 3",
+      "codigo": "UT5265",
+      "clave": "709359"
+    },
+    {
+      "comision": "AUXILIAR 4",
+      "codigo": "UT5266",
+      "clave": "476695"
+    },
+    {
+      "comision": "AUXILIAR 5",
+      "codigo": "UT5267",
+      "clave": "976386"
+    },
+    {
+      "comision": "AUXILIAR 6",
+      "codigo": "UT5268",
+      "clave": "999597"
+    }
+  ],
+  "URAMITA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2114",
+      "clave": "915687"
+    }
+  ],
+  "URRAO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2115",
+      "clave": "171374"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5269",
+      "clave": "055526"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5270",
+      "clave": "694611"
+    }
+  ],
+  "VALDIVIA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2116",
+      "clave": "557206"
+    }
+  ],
+  "VALPARAISO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2117",
+      "clave": "450848"
+    }
+  ],
+  "VEGACHI": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2118",
+      "clave": "732741"
+    }
+  ],
+  "VIGIA DEL FUERTE": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2119",
+      "clave": "902624"
+    }
+  ],
+  "VENECIA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2120",
+      "clave": "263236"
+    }
+  ],
+  "YALI": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2121",
+      "clave": "597511"
+    }
+  ],
+  "YARUMAL": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2122",
+      "clave": "340444"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5271",
+      "clave": "769131"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5272",
+      "clave": "318007"
+    },
+    {
+      "comision": "AUXILIAR 3",
+      "codigo": "UT5273",
+      "clave": "227834"
+    }
+  ],
+  "YOLOMBO": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2123",
+      "clave": "170270"
+    }
+  ],
+  "YONDO-CASABE": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2124",
+      "clave": "950485"
+    }
+  ],
+  "ZARAGOZA": [
+    {
+      "comision": "MUNICIPAL",
+      "codigo": "UT2125",
+      "clave": "089637"
+    },
+    {
+      "comision": "AUXILIAR 1",
+      "codigo": "UT5274",
+      "clave": "709798"
+    },
+    {
+      "comision": "AUXILIAR 2",
+      "codigo": "UT5275",
+      "clave": "502752"
+    }
+  ]
+}
