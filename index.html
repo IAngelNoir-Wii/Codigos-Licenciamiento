@@ -18,6 +18,7 @@
       --text: #E8E4DC;
       --muted: #7A8099;
       --success: #4CAF82;
+      --error: #e07070;
       --radius: 10px;
     }
 
@@ -78,7 +79,7 @@
       font-size: 0.95rem;
       display: none;
     }
-    #errorState { color: #e07070; }
+    #errorState { color: var(--error); }
     .spinner {
       width: 36px; height: 36px;
       border: 3px solid rgba(200,150,62,0.2);
@@ -89,7 +90,7 @@
     }
     @keyframes spin { to { transform: rotate(360deg); } }
 
-    /* ── CARD ── */
+    /* ── CARD (shared base) ── */
     .card {
       width: 100%; max-width: 680px;
       background: var(--panel);
@@ -100,7 +101,101 @@
       display: none;
     }
 
-    /* ── STEPS ── */
+    /* ── ACCESS GATE ── */
+    #accessCard {
+      max-width: 420px;
+      text-align: center;
+    }
+    .lock-icon {
+      font-size: 2.4rem;
+      margin-bottom: 16px;
+      display: block;
+      filter: drop-shadow(0 0 16px rgba(200,150,62,0.4));
+    }
+    .access-title {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .access-subtitle {
+      font-size: 0.84rem;
+      color: var(--muted);
+      margin-bottom: 28px;
+      line-height: 1.5;
+    }
+    .access-input-wrap {
+      position: relative;
+      margin-bottom: 12px;
+    }
+    .access-input-wrap input {
+      width: 100%;
+      background: var(--panel2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px 48px 14px 18px;
+      color: var(--text);
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.6rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-align: center;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .access-input-wrap input:focus { border-color: var(--gold); }
+    .access-input-wrap input::placeholder {
+      color: var(--muted);
+      font-size: 1rem;
+      letter-spacing: 0.06em;
+      font-weight: 400;
+    }
+    .access-input-wrap input.error-shake {
+      border-color: var(--error);
+      animation: shake 0.35s ease;
+    }
+    @keyframes shake {
+      0%,100% { transform: translateX(0); }
+      20% { transform: translateX(-8px); }
+      40% { transform: translateX(8px); }
+      60% { transform: translateX(-6px); }
+      80% { transform: translateX(6px); }
+    }
+    .toggle-vis {
+      position: absolute; right: 14px; top: 50%; transform: translateY(-50%);
+      background: none; border: none; cursor: pointer;
+      color: var(--muted); font-size: 1.1rem; padding: 4px;
+      transition: color 0.15s;
+    }
+    .toggle-vis:hover { color: var(--gold); }
+    .access-error {
+      font-size: 0.82rem;
+      color: var(--error);
+      min-height: 20px;
+      margin-bottom: 16px;
+      transition: opacity 0.2s;
+    }
+    .access-btn {
+      width: 100%;
+      background: linear-gradient(135deg, var(--gold) 0%, #a07030 100%);
+      border: none;
+      border-radius: var(--radius);
+      padding: 14px 24px;
+      color: #0F1117;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: opacity 0.18s, transform 0.1s;
+    }
+    .access-btn:hover { opacity: 0.88; }
+    .access-btn:active { transform: scale(0.98); }
+
+    /* ── STEP LABELS ── */
     .step-label {
       font-family: 'Barlow Condensed', sans-serif;
       font-size: 0.72rem;
@@ -109,6 +204,24 @@
       text-transform: uppercase;
       color: var(--gold);
       margin-bottom: 8px;
+    }
+
+    /* badge showing unlocked subregion */
+    .subregion-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(200,150,62,0.1);
+      border: 1px solid rgba(200,150,62,0.3);
+      border-radius: 99px;
+      padding: 6px 14px;
+      font-size: 0.82rem;
+      color: var(--gold-light);
+      margin-bottom: 24px;
+    }
+    .subregion-badge .dot {
+      width: 7px; height: 7px;
+      background: var(--success);
+      border-radius: 50%;
+      flex-shrink: 0;
     }
 
     /* ── AUTOCOMPLETE INPUT ── */
@@ -312,14 +425,33 @@
   Cargando datos…
 </div>
 
-<!-- Error -->
+<!-- Error JSON -->
 <div id="errorState">
   ⚠️ No se pudo cargar <code>Antioquia.json</code>.<br>
   Asegúrate de que el archivo esté en la misma carpeta que este HTML.
 </div>
 
-<!-- Main card (shown after data loads) -->
+<!-- ACCESS GATE (shown after JSON loads) -->
+<div class="card" id="accessCard">
+  <span class="lock-icon">🔐</span>
+  <div class="access-title">Acceso restringido</div>
+  <p class="access-subtitle">Ingresa la clave de tu subregión para continuar.</p>
+  <div class="access-input-wrap">
+    <input type="password" id="claveInput" placeholder="Clave de subregión" autocomplete="off" spellcheck="false" maxlength="20">
+    <button class="toggle-vis" id="toggleVis" title="Mostrar/ocultar">👁</button>
+  </div>
+  <div class="access-error" id="accessError"></div>
+  <button class="access-btn" id="accessBtn">Ingresar</button>
+</div>
+
+<!-- Main card (shown after correct key) -->
 <div class="card" id="mainCard">
+  <!-- Subregion badge -->
+  <div class="subregion-badge">
+    <span class="dot"></span>
+    <span id="badgeText">Subregión desbloqueada</span>
+  </div>
+
   <!-- STEP 1 -->
   <div class="step-label">① Busca tu municipio</div>
   <div class="input-wrap">
@@ -366,7 +498,82 @@
 
 <script>
 let DATA = {};
-let MUNICIPIOS = [];
+let MUNICIPIOS = []; // filtered to unlocked subregion
+
+// ── Subregión keys (clave → subregion name) ────────────
+const CLAVES = {
+  'Oriente':    'Oriente',
+  'Occidente':  'Occidente',
+  'Urabá':      'Urabá',
+  'Bajo Cauca': 'Bajo Cauca'
+};
+
+// ── Municipality → subregion map ───────────────────────
+const MUNICIPIO_SUBREGION = {
+  'ABEJORRAL': 'Oriente',
+  'ABRIAQUI': 'Occidente',
+  'ALEJANDRIA': 'Oriente',
+  'ANTIOQUIA': 'Occidente',
+  'ANZA': 'Occidente',
+  'APARTADO': 'Urabá',
+  'ARGELIA': 'Oriente',
+  'ARMENIA': 'Occidente',
+  'BURITICA': 'Occidente',
+  'CAICEDO': 'Occidente',
+  'CAÑASGORDAS': 'Occidente',
+  'CAREPA': 'Urabá',
+  'CARMEN DE VIBORAL': 'Oriente',
+  'CAUCASIA': 'Bajo Cauca',
+  'COCORNA': 'Oriente',
+  'CONCEPCION': 'Oriente',
+  'CHIGORODO': 'Urabá',
+  'EBEJICO': 'Occidente',
+  'EL BAGRE': 'Bajo Cauca',
+  'FRONTINO': 'Occidente',
+  'GIRALDO': 'Occidente',
+  'GRANADA': 'Oriente',
+  'GUARNE': 'Oriente',
+  'GUATAPE': 'Oriente',
+  'HELICONIA': 'Occidente',
+  'LA CEJA': 'Oriente',
+  'LIBORINA': 'Occidente',
+  'MARINILLA': 'Oriente',
+  'MURINDO': 'Urabá',
+  'MUTATA': 'Urabá',
+  'NARIÑO': 'Oriente',
+  'OLAYA': 'Occidente',
+  'PEÑOL': 'Oriente',
+  'PEQUE': 'Occidente',
+  'RIONEGRO': 'Oriente',
+  'SABANALARGA': 'Occidente',
+  'SAN CARLOS': 'Oriente',
+  'SAN FRANCISCO': 'Oriente',
+  'SAN JERONIMO': 'Occidente',
+  'SAN LUIS': 'Oriente',
+  'SAN PEDRO DE URABA': 'Urabá',
+  'SAN RAFAEL': 'Oriente',
+  'SAN VICENTE': 'Oriente',
+  'SANTUARIO': 'Oriente',
+  'SONSON': 'Oriente',
+  'SOPETRAN': 'Occidente',
+  'TARAZA': 'Bajo Cauca',
+  'TURBO': 'Urabá',
+  'URAMITA': 'Occidente',
+  'VIGIA DEL FUERTE': 'Urabá'
+};
+
+function normalize(str) {
+  return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase().trim();
+}
+
+// Returns subregion name if key is valid, null otherwise
+function validateKey(input) {
+  const n = normalize(input);
+  for (const [key, name] of Object.entries(CLAVES)) {
+    if (normalize(key) === n) return name;
+  }
+  return null;
+}
 
 // ── Load JSON ──────────────────────────────────────────
 document.getElementById('loadingState').style.display = 'block';
@@ -378,18 +585,67 @@ fetch('Antioquia.json')
   })
   .then(json => {
     DATA = json;
-    MUNICIPIOS = Object.keys(DATA).sort();
     document.getElementById('loadingState').style.display = 'none';
-    document.getElementById('mainCard').style.display = 'block';
-    init();
+    document.getElementById('accessCard').style.display = 'block';
+    document.getElementById('claveInput').focus();
+    initAccessGate();
   })
   .catch(() => {
     document.getElementById('loadingState').style.display = 'none';
     document.getElementById('errorState').style.display = 'block';
   });
 
+// ── Access Gate ────────────────────────────────────────
+function initAccessGate() {
+  const claveInput  = document.getElementById('claveInput');
+  const accessBtn   = document.getElementById('accessBtn');
+  const accessError = document.getElementById('accessError');
+  const toggleVis   = document.getElementById('toggleVis');
+
+  toggleVis.addEventListener('click', () => {
+    const isPass = claveInput.type === 'password';
+    claveInput.type = isPass ? 'text' : 'password';
+    toggleVis.textContent = isPass ? '🙈' : '👁';
+    claveInput.focus();
+  });
+
+  function tryAccess() {
+    const subregion = validateKey(claveInput.value.trim());
+    if (subregion) {
+      document.getElementById('accessCard').style.display = 'none';
+      unlockApp(subregion);
+    } else {
+      accessError.textContent = 'Clave incorrecta. Verifica e intenta de nuevo.';
+      claveInput.classList.remove('error-shake');
+      void claveInput.offsetWidth; // reflow to restart animation
+      claveInput.classList.add('error-shake');
+      claveInput.select();
+      setTimeout(() => claveInput.classList.remove('error-shake'), 400);
+    }
+  }
+
+  accessBtn.addEventListener('click', tryAccess);
+  claveInput.addEventListener('keydown', e => { if (e.key === 'Enter') tryAccess(); });
+  claveInput.addEventListener('input', () => { accessError.textContent = ''; });
+}
+
+// ── Unlock & init app ──────────────────────────────────
+function unlockApp(subregion) {
+  // Filter municipalities to this subregion only
+  MUNICIPIOS = Object.keys(DATA)
+    .filter(m => {
+      const norm = normalize(m);
+      return MUNICIPIO_SUBREGION[norm] === subregion;
+    })
+    .sort();
+
+  document.getElementById('badgeText').textContent = 'Subregión: ' + subregion;
+  document.getElementById('mainCard').style.display = 'block';
+  initApp();
+}
+
 // ── App logic ──────────────────────────────────────────
-function init() {
+function initApp() {
   const input       = document.getElementById('municipioInput');
   const dropdown    = document.getElementById('dropdown');
   const comisionSec = document.getElementById('comisionSection');
@@ -400,10 +656,6 @@ function init() {
   let selectedMunicipio = null;
   let ddIndex = -1;
   let filtered = [];
-
-  function normalize(str) {
-    return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase().trim();
-  }
 
   function highlight(text, query) {
     if (!query) return text;
